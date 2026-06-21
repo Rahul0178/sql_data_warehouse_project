@@ -90,4 +90,14 @@ MIT License
 
 ## About Me
 
-Hi there! I'm **Rahul Tiwari**, a Data Analyst/Data Engineer passionate about transforming raw data into actionable business insights. I specialize in SQL, Data Warehousing, ETL Pipelines, Data Analytics, and Business Intelligence solutions.
+Hi, I'm Rahul Tiwari, a Computer Science undergraduate passionate about Data Analytics, Data Engineering, and Business Intelligence.
+
+This project demonstrates my skills in:
+- SQL Development
+- Data Warehousing
+- ETL Pipeline Development
+- Data Modeling
+- Data Analytics
+- Business Intelligence
+
+I'm actively seeking opportunities in Data Analyst and Data Engineering roles.
