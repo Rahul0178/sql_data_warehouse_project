@@ -1,58 +1,67 @@
-# sql_data_warehouse_project
+# 🚀 SQL Data Warehouse & Analytics Project
 
-Building a modern data warehouse with SQL Server, including ETL processes, data modeling, and analytics.
-
-## 🚀 Project Requirements
-
-### Building the Data Warehouse (Data Engineering)
-
-#### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-
-#### Specifications
-- Data Sources: Import data from ERP and CRM systems.
-- Data Quality: Cleanse and resolve data quality issues.
-- Integration: Combine both sources into a unified analytical model.
-- Scope: Focus on the latest dataset only.
-- Documentation: Provide clear documentation of the data model.
+Building a modern data warehouse with SQL Server, including ETL processes, data modeling, and SQL-based analytics to generate business insights.
 
 ---
 
-### BI: Analytics & Reporting (Data Analytics)
+## 📌 Project Overview
 
-#### Objective
-Develop SQL-based analytics to deliver business insights from the Gold Layer.
+This project demonstrates the design and implementation of a modern Data Warehouse using SQL Server. The solution integrates data from multiple source systems (ERP and CRM), transforms raw data into a business-ready analytical model, and generates actionable insights through SQL-based reporting and analytics.
 
-#### Analysis Performed
-- Database Exploration
-- Dimension Exploration
-- Customer Analysis
-- Product Analysis
-- Sales Analysis
-- Revenue Trends Analysis
+The project follows the Medallion Architecture approach with Bronze, Silver, and Gold layers to ensure scalable, maintainable, and high-quality data processing.
 
-#### SQL Concepts Used
-- Joins
-- CTEs
-- Views
-- Window Functions
-- Aggregations
-- Ranking Functions
+---
 
-#### Business Insights Generated
-- Customer Behavior Analysis
-- Product Performance Analysis
-- Sales Trends Analysis
-- Revenue Performance Analysis
-- Top Customers & Products Identification
+## 🎯 Project Objectives
+
+### Data Engineering
+
+* Consolidate data from multiple source systems.
+* Build robust ETL pipelines for data ingestion and transformation.
+* Clean and standardize data to improve quality.
+* Design dimensional models for analytical reporting.
+* Create a centralized data warehouse for business intelligence.
+
+### Data Analytics
+
+* Analyze customer behavior.
+* Evaluate product performance.
+* Identify sales trends and business opportunities.
+* Generate actionable insights using advanced SQL queries.
+
+---
+
+## 🏗️ Data Architecture
+
+### Data Architecture
+
+![Data Architecture](images/data_architecture.png)
+
+### Data Flow
+
+![Data Flow](images/data_flow.png)
+
+### Data Integration
+
+![Data Integration](images/data_integration.png)
+
+### Data Model
+
+![Data Model](images/data_model.png)
+
+### ETL Process
+
+![ETL Process](images/etl_process.png)
 
 ---
 
 ## 📂 Project Structure
 
+```text
 sql_data_warehouse_project/
 │
 ├── datasets/
+│
 ├── scripts/
 │   ├── bronze/
 │   ├── silver/
@@ -65,39 +74,159 @@ sql_data_warehouse_project/
 │   ├── 04_product_analysis.sql
 │   └── 05_sales_analysis.sql
 │
-├── docs/
-└── README.md
+├── images/
+│   ├── data_architecture.png
+│   ├── data_flow.png
+│   ├── data_integration.png
+│   ├── data_model.png
+│   └── etl_process.png
+│
+├── README.md
+└── LICENSE
+```
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Data Warehouse Development
 
-- SQL Server
-- ETL Pipelines
-- Data Warehousing
-- Data Modeling
-- SQL Analytics
-- Data Quality Management
-- Business Intelligence
+### Data Sources
+
+* ERP System (CSV Files)
+* CRM System (CSV Files)
+
+### Bronze Layer
+
+* Raw data ingestion from source systems.
+* Minimal transformation.
+* Data stored in original format.
+
+### Silver Layer
+
+* Data cleansing and validation.
+* Handling missing and inconsistent values.
+* Standardization and transformation.
+
+### Gold Layer
+
+* Business-ready analytical datasets.
+* Fact and dimension tables.
+* Optimized for reporting and analytics.
 
 ---
 
-## License
+## 📊 Analytics & Reporting
 
-MIT License
+The Gold Layer serves as the foundation for business analytics and reporting.
+
+### Analysis Performed
+
+#### Database Exploration
+
+* Dataset overview and validation.
+* Record counts and data completeness checks.
+
+#### Customer Analysis
+
+* Customer segmentation.
+* Top customers by revenue.
+* Customer purchasing behavior.
+
+#### Product Analysis
+
+* Top-selling products.
+* Product category performance.
+* Revenue contribution by product.
+
+#### Sales Analysis
+
+* Revenue trends over time.
+* Sales growth analysis.
+* Monthly and yearly performance tracking.
 
 ---
 
-## About Me
+## 🔍 SQL Concepts Applied
 
-Hi, I'm Rahul Tiwari, a Computer Science undergraduate passionate about Data Analytics, Data Engineering, and Business Intelligence.
+* Joins
+* Common Table Expressions (CTEs)
+* Views
+* Window Functions
+* Ranking Functions
+* Aggregations
+* Subqueries
+* Data Validation Queries
+* Fact & Dimension Modeling
 
-This project demonstrates my skills in:
-- SQL Development
-- Data Warehousing
-- ETL Pipeline Development
-- Data Modeling
-- Data Analytics
-- Business Intelligence
+---
+
+## 📈 Business Insights Generated
+
+* Identification of high-value customers.
+* Analysis of best-performing products.
+* Revenue trend analysis.
+* Customer behavior insights.
+* Product category performance evaluation.
+* Strategic reporting for business decision-making.
+
+---
+
+## 🛠️ Technology Stack
+
+### Database
+
+* SQL Server
+
+### Data Engineering
+
+* ETL Pipelines
+* Data Warehousing
+* Data Modeling
+* Dimensional Modeling
+* Medallion Architecture
+
+### Analytics
+
+* SQL Analytics
+* Business Intelligence
+* Reporting
+* Exploratory Data Analysis (EDA)
+
+### Version Control
+
+* Git
+* GitHub
+
+---
+
+## 🚀 Key Skills Demonstrated
+
+* Data Warehousing
+* ETL Development
+* SQL Development
+* Data Modeling
+* Data Integration
+* Data Quality Management
+* Exploratory Data Analysis
+* Business Analytics
+* Reporting & Insights Generation
+
+---
+
+## 👨‍💻 About Me
+
+Hi, I'm **Rahul Tiwari**, a Computer Science undergraduate passionate about Data Analytics, Data Engineering, and Business Intelligence.
+
+This project demonstrates my ability to:
+
+* Build end-to-end data warehouse solutions.
+* Design scalable ETL pipelines.
+* Create analytical data models.
+* Generate actionable business insights using SQL.
 
 I'm actively seeking opportunities in Data Analyst and Data Engineering roles.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
