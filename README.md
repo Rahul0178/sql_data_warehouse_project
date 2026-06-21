@@ -1,5 +1,7 @@
 # sql_data_warehouse_project
+
 Building a modern data warehouse with SQL Server, including ETL processes, data modeling, and analytics.
+
 ## 🚀 Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
@@ -8,29 +10,84 @@ Building a modern data warehouse with SQL Server, including ETL processes, data 
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 #### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+- Data Sources: Import data from ERP and CRM systems.
+- Data Quality: Cleanse and resolve data quality issues.
+- Integration: Combine both sources into a unified analytical model.
+- Scope: Focus on the latest dataset only.
+- Documentation: Provide clear documentation of the data model.
 
 ---
 
 ### BI: Analytics & Reporting (Data Analytics)
 
 #### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
+Develop SQL-based analytics to deliver business insights from the Gold Layer.
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+#### Analysis Performed
+- Database Exploration
+- Dimension Exploration
+- Customer Analysis
+- Product Analysis
+- Sales Analysis
+- Revenue Trends Analysis
 
-## license
+#### SQL Concepts Used
+- Joins
+- CTEs
+- Views
+- Window Functions
+- Aggregations
+- Ranking Functions
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+#### Business Insights Generated
+- Customer Behavior Analysis
+- Product Performance Analysis
+- Sales Trends Analysis
+- Revenue Performance Analysis
+- Top Customers & Products Identification
+
+---
+
+## 📂 Project Structure
+
+sql_data_warehouse_project/
+│
+├── datasets/
+├── scripts/
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
+│
+├── analytics/
+│   ├── 01_database_exploration.sql
+│   ├── 02_dimensions_exploration.sql
+│   ├── 03_customer_analysis.sql
+│   ├── 04_product_analysis.sql
+│   └── 05_sales_analysis.sql
+│
+├── docs/
+└── README.md
+
+---
+
+## 🛠️ Tech Stack
+
+- SQL Server
+- ETL Pipelines
+- Data Warehousing
+- Data Modeling
+- SQL Analytics
+- Data Quality Management
+- Business Intelligence
+
+---
+
+## License
+
+MIT License
+
+---
 
 ## About Me
 
-Hi there! I'm **Rahul Tiwari**, a Data Engineer passionate about transforming raw data into actionable business insights. I specialize in building robust data pipelines, designing efficient data warehouses, and creating analytical models that drive strategic decisions.
-
+Hi there! I'm **Rahul Tiwari**, a Data Analyst/Data Engineer passionate about transforming raw data into actionable business insights. I specialize in SQL, Data Warehousing, ETL Pipelines, Data Analytics, and Business Intelligence solutions.
