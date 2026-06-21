@@ -35,23 +35,23 @@ The project follows the Medallion Architecture approach with Bronze, Silver, and
 
 ### Data Architecture
 
-![Data Architecture](images/data_architecture.png)
+
 
 ### Data Flow
 
-![Data Flow](images/data_flow.png)
+
 
 ### Data Integration
 
-![Data Integration](images/data_integration.png)
+
 
 ### Data Model
 
-![Data Model](images/data_model.png)
+
 
 ### ETL Process
 
-![ETL Process](images/etl_process.png)
+
 
 ---
 
